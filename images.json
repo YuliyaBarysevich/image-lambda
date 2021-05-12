@@ -1,0 +1,48 @@
+2021-05-12T06:20:39.715Z	c1757289-f357-4a9e-bd0f-5a45d0f3ccfe	INFO	event details 
+{
+    "Records": [
+        {
+            "eventVersion": "2.1",
+            "eventSource": "aws:s3",
+            "awsRegion": "us-east-2",
+            "eventTime": "2021-05-12T06:20:31.269Z",
+            "eventName": "ObjectCreated:Put",
+            "userIdentity": {
+                "principalId": "A8P2I8JJJ4MWM"
+            },
+            "requestParameters": {
+                "sourceIPAddress": "108.27.57.180"
+            },
+            "responseElements": {
+                "x-amz-request-id": "HC5KMVJ8XXPSWAH1",
+                "x-amz-id-2": "/DVPXOSRyRfZAXReZKRnTnqL0MejjwYgeBYT3KuR2CMuMI2+B60nykoB6OAvQaqWjVXRpmR86bItd+XBX1WJcNKpa9qWCFVo"
+            },
+            "s3": {
+                "s3SchemaVersion": "1.0",
+                "configurationId": "9c0d8d48-19cd-4b5b-b487-24c7209fbd56",
+                "bucket": {
+                    "name": "barysevich-lab",
+                    "ownerIdentity": {
+                        "principalId": "A8P2I8JJJ4MWM"
+                    },
+                    "arn": "arn:aws:s3:::test-bucket-yuliya"
+                },
+                "object": {
+                    "key": "binary-tree.png",
+                    "size": 16542,
+                    "eTag": "4c8a646f5d67941eb2cb26b1262caffa",
+                    "sequencer": "00609B73B636E675A9"
+                }
+            }
+        }
+    ]
+} [{
+  "Name": "binary-tree.png",
+  "Size": 16542
+},{
+  "Name": "Screen+Shot+2021-05-11+at+19.04.39.png",
+  "Size": 18432
+},{
+  "Name": "Screen+Shot+2021-05-11+at+19.32.27.png",
+  "Size": 18193
+}]
